@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    height: 120px;
+    background-color: beige;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item{
+    margin-right: 1rem;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+.carrito{
+position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px, 6px;
+    border-radius: 50%;
+    translate: (50%, -50%);
+}
